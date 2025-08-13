@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load dataset
-df = pd.read_csv("titanic.csv")  # Make sure the Titanic dataset CSV is in the same folder
+df = pd.read_csv("Titanic_train.csv")  # Make sure the Titanic dataset CSV is in the same folder
 
 # Load model
 with open("model.pkl", "rb") as f:
